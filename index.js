@@ -66,11 +66,15 @@ app.get('/:cardName', async (req, res) => {
 			const imageUrlRelative = $('a img', leftCol[i])[0].attribs.src;
 			const imageUrl = `http://gatherer.wizards.com/${imageUrlRelative.slice(6)}`;
 
+			// Get id out of image url
+			const multiverseId = parseInt(imageUrlRelative.slice(imageUrlRelative.indexOf('multiverseid=') + 13, -10), 10);
+
 			// Create an object
 			const object = {
 				title: titleDocument[i].children[0].data,
 				mana,
-				imageUrl
+				imageUrl,
+				multiverseId
 			};
 			data.push(object);
 		}
