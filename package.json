@@ -1,21 +1,13 @@
 {
-  "name": "mtg-gatherer-scraper",
+  "name": "mtg-gatherer-search",
   "version": "0.0.0",
-  "description": "Simple web scraper for MTG Gatherer that I use in my card database.",
+  "description": "Simple search for MTG Gatherer that I use in my card database.",
   "main": "index.js",
-  "repository": "https://github.com/dusansimic/mtg-gatherer-scraper",
+  "repository": "https://github.com/dusansimic/mtg-gatherer-search",
   "author": "Dušan Simić <dusan.simic1810@gmail.com> (dusansimic.me)",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "got": "^9.6.0",
-    "nodemon": "^1.18.9"
-  },
-  "scripts": {
-    "start": "node .",
-    "dev": "nodemon ."
+    "got": "^9.6.0"
   }
 }
