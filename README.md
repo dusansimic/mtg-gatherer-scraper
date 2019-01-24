@@ -29,7 +29,7 @@ const mtgGathererSearch = require('mtg-gatherer-search');
 import * as mtgGathererSearch from 'mtg-gatherer-search';
 ```
 
-### Scrape
+### Search
 
 Now just call the function and get your search results in a json.
 ``` javascript
