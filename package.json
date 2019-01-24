@@ -1,6 +1,6 @@
 {
   "name": "mtg-gatherer-search",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple search for MTG Gatherer that I use in my card database.",
   "main": "index.js",
   "repository": "https://github.com/dusansimic/mtg-gatherer-search",
